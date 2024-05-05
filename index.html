@@ -3,88 +3,34 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>SouMitsu</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-    <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
-    <style>
-        body {
-            min-height: 100vh;
-            margin: 0;
-            background-image: url(https://img.freepik.com/vector-gratis/fondo-verde-oliva-dibujado-mano_23-2149724849.jpg);
-            background-size: cover;
-            background-position: center;
-            color: rgb(206, 224, 219);
-            font-family: monospace;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-        }
-
-        main {
-            max-width: 512px;
-            padding: 16px;
-            margin: 16px;
-            background-color: rgba(0, 0, 0, 0.5);
-            border-radius: 16px;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            gap: 12px;
-        }
-
-        img {
-            display: block;
-            border-radius: 50%;
-        }
-
-        h1,
-        h2,
-        span,
-        p {
-            margin: 0;
-            text-align: center;
-        }
-
-        h1 {
-            font-size: 35px;
-        }
-
-        ul {
-            padding: 0;
-            margin: 0;
-            display: flex;
-            gap: 50px;
-            list-style: none;
-        }
-
-        a {
-            color: white;
-        }
-    </style>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" />
+    <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="./css/index.css" />
 </head>
 
-<body>
-    <main>
+<body class="body">
+    <main class="card">
         <img src="https://i.pinimg.com/originals/fa/05/86/fa058603737563999e81db16cb2766df.gif" alt="SouMitsu"
-            width="280" height="250" />
-        <h1>
+            width="280" height="250" class="img"/>
+        <h1 class="card-title">
             SouMitsu
         </h1>
-        <h2>Estudiante de diseño web</h2>
-        <span> Lima, Perú </span>
-        <p>
+        <h2 class="card-subtitle">Estudiante de diseño web</h2>
+        <span class="ubicación"> Lima, Perú </span>
+        <p class="card-text">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti sunt ducimus rem minus obcaecati voluptas
             similique. Perspiciatis totam expedita quo et aperiam animi eius, exercitationem saepe ex, nulla dolore
             vitae. :D
         </p>
-        <ul>
+        <ul class="list">
             <li>
                 <a href="http://twitter.com/_SouMitsu" target="_blank" rel="noopener noreferrer"><i
-                        class="bi bi-twitter"></i></a>
+                        class="bi bi-twitter" class="link"></i></a>
             </li>
             <li> <a href="https://www.instagram.com/soumitsu_/" target="_blank" rel="noopener noreferrer"><i
-                        class="bi bi-instagram"></i></a>
+                        class="bi bi-instagram" class="link"></i></a>
             </li>
         </ul>
     </main>
